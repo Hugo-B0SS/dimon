@@ -15,10 +15,52 @@ body {
 	height : 70px;
 	background-color : #3B4859;
 }
-.navigation{
-	display: inline;
-	margin: 0px;
+#navigation {
+width: 560px;
+height: 50px;
+margin: 0;
+padding: 0;
+background-image: url(img/gor_menu.jpg);
+background-repeat: no-repeat;
+background-position:center;
+} 
+#navigation ul {
+list-style: none;
+margin: 0;
+padding: 0;
+} 
+#navigation ul li {
+display: inline;
+margin: 0px;
+} 
+#navigation ul li a {
+height:28px;
+display: block;
+float: left;
+color: #333333;
+text-decoration: none;
+font-family: Arial;
+font-size: 12px;
+font-weight: bold;
+background-image: url(img/menu_separatorline.jpg);
+background-repeat: no-repeat;
+background-position: right center;
+padding-top: 17px;
+padding-right: 15px;
+padding-bottom: 0;
+padding-left: 15px;
 }
+#navigation ul li a:hover {
+color:#FFF;
+background-image: url(img/button_hover.jpg);
+background-repeat: repeat-x;
+background-position: left top;
+}
+#navigation ul li#active a {
+background-image: url(img/button_hover.jpg);
+background-repeat: repeat-x;
+background-position: left top;
+}  
 .b_container{
 	width:  800px;
 	height: 650px;
