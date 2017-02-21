@@ -1,0 +1,43 @@
+body {
+	color : #F1F2F3;
+	margin: 0;
+
+
+
+
+}
+#wrapper{
+	width: 800px;
+	margin: 0 240px;
+}
+.b_header{
+	width : 800px;
+	height : 70px;
+	background-color : #3B4859;
+}
+.navigation{
+	display: inline;
+	margin: 0px;
+}
+.b_container{
+	width:  800px;
+	height: 650px;
+	background-color : #565E69;
+
+
+
+}
+.b_footer{
+	width : 800px;
+	height : 70px;
+	background-color : #A5A1C2;
+	
+	
+	
+}
+.text1{
+	font: 18px;
+}
+.text2{
+	font: 8px;
+}
